@@ -37,3 +37,8 @@ var awesome = true
 var score = 85
 var str3 = "Your score was \(score)"
 var results = "The test results are here: \(str3)"
+
+//6.Constants
+// use let to define constants
+let taylor = "swift"
+
