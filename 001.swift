@@ -10,3 +10,19 @@ greeting = "NAMASTE"
 var str = "Hello"
 var age = 50
 var population = 80_00_000
+
+//3.Multi-line strings
+//var str1 = """
+//Here goes our
+//multiline
+//string
+//"""
+
+//throwing error
+// error: unterminated string literal
+
+//var str2 = """
+//Here goes our \
+//multiline \
+//string
+//"""
