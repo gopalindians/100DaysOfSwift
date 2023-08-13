@@ -31,3 +31,9 @@ var population = 80_00_000
 //4.Doubles and Booleans
 var pi = 3.141
 var awesome = true
+
+
+//5.String interpolation
+var score = 85
+var str3 = "Your score was \(score)"
+var results = "The test results are here: \(str3)"
