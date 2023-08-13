@@ -26,3 +26,8 @@ var population = 80_00_000
 //multiline \
 //string
 //"""
+
+
+//4.Doubles and Booleans
+var pi = 3.141
+var awesome = true
