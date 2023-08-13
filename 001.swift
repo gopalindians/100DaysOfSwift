@@ -42,3 +42,8 @@ var results = "The test results are here: \(str3)"
 // use let to define constants
 let taylor = "swift"
 
+//7.Type annotations
+let album:String = "Reputation"
+let year:Int = 1989
+let height:Double = 1.78
+let taylorRocks: Bool = true
