@@ -74,3 +74,12 @@ var scores = Dictionary<String, Int>()
 
 //var results = Array<Int>()
 //var numbers = Set<Int>()
+
+
+//8.Enumerations
+enum Result {
+    case success
+    case failure
+}
+
+let result4 = Result.failure
