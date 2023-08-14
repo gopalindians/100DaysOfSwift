@@ -61,3 +61,16 @@ let results = [
 ]
 
 let historyResult = results["history", default: 0]
+
+
+//7.Creating empty collections
+var teams = [String: String]()
+teams["Paul"] = "Red"
+
+//var /*results*/ = [Int]()
+var words = Set<String>()
+var numbers = Set<Int>()
+var scores = Dictionary<String, Int>()
+
+//var results = Array<Int>()
+//var numbers = Set<Int>()
