@@ -29,3 +29,9 @@ name.first
 
 var website = (name: "Apple", url: "www.apple.com")
 var person = (name: "Paul", age: 40, isMarried: true)
+
+
+//4.Arrays vs sets vs tuples
+let address = (house: 555, street: "Taylor Swift Avenue", city: "Nashville")
+let set = Set(["aardvark", "astronaut", "azalea"])
+let pythons = ["Eric", "Graham", "John", "Michael", "Terry", "Terry"]
