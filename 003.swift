@@ -105,3 +105,18 @@ case "sunny":
 default:
     print("Enjoy your day!")
 }
+
+
+//9.Range operators
+let score1 = 85
+
+switch score1 {
+case 0..<50:
+    print("You failed badly.")
+case 50..<85:
+    print("You did OK.")
+default:
+    print("You did great!")
+}
+
+print(1..<30)
