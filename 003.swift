@@ -10,3 +10,13 @@ let difference = firstScore - secondScore
 let product = firstScore * secondScore
 let divided = firstScore / secondScore
 let remainder = 13 % secondScore
+
+//2.Operator overloading
+
+let meaningOfLife = 42
+let doubleMeaning = 42 + 42
+let fakers = "Fakers gonna "
+let action = fakers + "fake"
+let firstHalf = ["John", "Paul"]
+let secondHalf = ["George", "Ringo"]
+let beatles = firstHalf + secondHalf
