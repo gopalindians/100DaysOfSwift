@@ -69,3 +69,14 @@ if age1 > 18 && age2 > 18 {
 if age1 > 18 || age2 > 18 {
     print("At least one is over 18")
 }
+
+
+//7.The ternary operator
+let firstCard1 = 11
+let secondCard2 = 10
+print(firstCard1 == secondCard2 ? "Cards are the same" : "Cards are different")
+if firstCard1 == secondCard2 {
+    print("Cards are the same")
+} else {
+    print("Cards are different")
+}
