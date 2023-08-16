@@ -44,3 +44,22 @@ while number <= 20{
 }
         
 print("Ready or not, here I come!")
+
+
+//3.Repeat loops
+
+var number1 = 1
+
+repeat {
+    print(number1)
+    number1 += 1
+} while number1 <= 20
+
+print("Ready or not, here I come!")
+while false {
+    print("This is false")
+}
+
+repeat {
+    print("This is false")
+} while false
