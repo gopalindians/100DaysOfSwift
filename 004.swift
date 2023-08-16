@@ -33,3 +33,14 @@ let names1 = ["Sterling", "Cyril", "Lana", "Ray", "Pam"]
 for _ in names1 {
     print("[CENSORED] is a secret agent!")
 }
+
+
+//2.While loops
+
+var number = 1;
+while number <= 20{
+    print(number)
+    number+=1
+}
+        
+print("Ready or not, here I come!")
