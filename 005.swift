@@ -23,3 +23,11 @@ func readUserInput() {
     }
 }
 readUserInput()
+
+
+//2.Accepting parameters
+print("Hello, world!")
+func square(number: Int) {
+    print(number * number)
+}
+square(number: 8)
