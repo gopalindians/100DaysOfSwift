@@ -113,3 +113,13 @@ func constructBuilding(floors: Int) throws {
     print("Perfect - let's get building!")
 }
 
+
+
+//9.Running throwing functions
+
+do {
+    try checkPassword("password")
+    print("That password is good!")
+} catch {
+    print("You can't use that password.")
+}
