@@ -82,3 +82,34 @@ func square2(numbers: Int...) {
 }
 
 square2(numbers: 1, 2, 3, 4, 5)
+
+
+//8. Writing throwing functions
+
+enum PasswordError: Error {
+    case obvious
+}
+
+func checkPassword(_ password: String) throws -> Bool {
+    if password == "password" {
+        throw PasswordError.obvious
+    }
+
+    return true
+}
+
+
+enum BuildingError: Error {
+    case tooHigh
+    case tooLow
+}
+
+func constructBuilding(floors: Int) throws {
+    if floors < 10 {
+        throw BuildingError.tooLow
+    } else if floors > 500 {
+        throw BuildingError.tooHigh
+    }
+    print("Perfect - let's get building!")
+}
+
