@@ -84,3 +84,15 @@ func travel5() -> (String) -> Void {
 
 let result5 = travel5()
 result5("India")
+
+
+//6.Capturing values
+
+func travel6() -> (String) -> Void {
+    return {
+        print("I'm going to \($0)")
+    }
+}
+
+let result6 = travel6()
+result6("London")
