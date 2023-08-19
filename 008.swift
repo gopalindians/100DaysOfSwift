@@ -72,6 +72,7 @@ london.collectTaxes()
 
 
 //005. Mutating methods
+
 struct Person {
     var name: String
 
@@ -82,3 +83,12 @@ struct Person {
 
 var person = Person(name: "Ed")
 person.makeAnonymous()
+
+
+
+//006. Properties and methods of strings
+let string = "Do or do not, there is no try."
+print(string.count)
+print(string.hasPrefix("Do"))
+print(string.uppercased())
+print(string.sorted())
