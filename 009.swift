@@ -19,3 +19,15 @@ struct User1 {
 
 var user2 = User1()
 user.username = "twostraws"
+
+
+
+//002.Referring to the current instance
+struct Person1 {
+    var name: String
+
+    init(name: String) {
+        print("\(name) was born!")
+        self.name = name
+    }
+}
