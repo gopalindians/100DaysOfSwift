@@ -53,7 +53,6 @@ var ed = Person2(name: "Ed")
 
 
 //004.Static properties and methods
-
 struct Student {
     var name: String
 
@@ -76,3 +75,37 @@ struct Student1 {
 }
 
 print(Student1.classSize)
+
+
+//005.Access control
+
+struct Person3 {
+    var id: String
+
+    init(id: String) {
+        self.id = id
+    }
+}
+
+let ed3 = Person3(id: "12345")
+
+
+struct Person4 {
+    private var id: String
+
+    init(id: String) {
+        self.id = id
+    }
+}
+
+struct Person5 {
+    private var id: String
+
+    init(id: String) {
+        self.id = id
+    }
+
+    func identify() -> String {
+        return "My social security number is \(id)"
+    }
+}
