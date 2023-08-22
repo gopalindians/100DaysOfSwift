@@ -72,3 +72,21 @@ final class Dog44 {
         self.breed = breed
     }
 }
+
+
+//005 Copying objects
+
+class Singer {
+    var name = "Taylor Swift"
+}
+var singer = Singer()
+print(singer.name)
+
+var singerCopy = singer
+singerCopy.name = "Justin Bieber"
+
+print(singer.name)
+
+struct Singer1 {
+    var name = "Taylor Swift"
+}
