@@ -90,3 +90,29 @@ print(singer.name)
 struct Singer1 {
     var name = "Taylor Swift"
 }
+
+
+//006 Deinitializers
+
+class Person6 {
+    var name = "John Doe"
+
+    init() {
+        print("\(name) is alive!")
+    }
+
+    func printGreeting() {
+        print("Hello, I'm \(name)")
+    }
+    deinit {
+        print("\(name) is no more!")
+    }
+}
+
+for _ in 1...3 {
+    let person = Person6()
+    person.printGreeting()
+}
+
+
+
