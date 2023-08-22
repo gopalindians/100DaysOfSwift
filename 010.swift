@@ -116,3 +116,11 @@ for _ in 1...3 {
 
 
 
+//007 Mutability
+class Singer7 {
+    var name = "Taylor Swift"
+}
+
+let taylor = Singer7()
+taylor.name = "Ed Sheeran"
+print(taylor.name)
