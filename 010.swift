@@ -32,3 +32,29 @@ class Poodle2: Dog1 {
         super.init(name: name, breed: "Poodle")
     }
 }
+
+
+
+//003 Overriding methods
+
+class Dog3 {
+    func makeNoise() {
+        print("Woof!")
+    }
+}
+
+class Poodle3: Dog3 {
+}
+
+let poppy3 = Poodle3()
+poppy3.makeNoise()
+
+
+class Poodle33: Dog3 {
+    override func makeNoise() {
+        print("Yip!")
+    }
+}
+
+let poppy33 = Poodle33()
+poppy33.makeNoise()
