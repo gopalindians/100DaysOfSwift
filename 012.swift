@@ -30,3 +30,8 @@ func greet(_ name: String?) {
 
     print("Hello, \(unwrapped)!")
 }
+
+//004 Force unwrapping
+let str2 = "5"
+let num = Int(str2)
+let num2 = Int(str2)!
