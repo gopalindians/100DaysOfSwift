@@ -35,3 +35,7 @@ func greet(_ name: String?) {
 let str2 = "5"
 let num = Int(str2)
 let num2 = Int(str2)!
+
+
+//005 Implicitly unwrapped optionals
+let age1: Int! = nil
