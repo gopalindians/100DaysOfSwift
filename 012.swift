@@ -39,3 +39,16 @@ let num2 = Int(str2)!
 
 //005 Implicitly unwrapped optionals
 let age1: Int! = nil
+
+
+//006 Nil coalescing
+
+func username(for id: Int) -> String? {
+    if id == 1 {
+        return "Taylor Swift"
+    } else {
+        return nil
+    }
+}
+
+let user = username(for: 15) ?? "Anonymous"
