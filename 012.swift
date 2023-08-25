@@ -88,3 +88,20 @@ if let result = try? checkPassword("password") {
 
 try! checkPassword("sekrit")
 print("OK!")
+
+
+//009 Failable initializers
+let str = "5"
+let num1 = Int(str)
+
+struct Person {
+    var id: String
+
+    init?(id: String) {
+        if id.count == 9 {
+            self.id = id
+        } else {
+            return nil
+        }
+    }
+}
