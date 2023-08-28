@@ -134,3 +134,23 @@ var songs8 = ["Today was a Fairytale", "Welcome to New York", "Fifteen"]
 var both2 = songs7 + songs8
 
 both2 += ["Everything has Changed"]
+
+
+
+//006 Dictionaries
+var person = ["Taylor", "Alison", "Swift", "December", "taylorswift.com"]
+
+var person1 = ["first": "Taylor", "middle": "Alison", "last": "Swift", "month": "December", "website": "taylorswift.com"]
+person1["middle"]
+person1["month"]
+
+var person2 = [
+                "first": "Taylor",
+                "middle": "Alison",
+                "last": "Swift",
+                "month": "December",
+                "website": "taylorswift.com"
+            ]
+
+person2["middle"]
+person2["month"]
