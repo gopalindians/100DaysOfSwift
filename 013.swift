@@ -154,3 +154,36 @@ var person2 = [
 
 person2["middle"]
 person2["month"]
+
+
+//007 Conditional statements
+
+var action007: String
+var person007 = "hater"
+
+if person007 == "hater" {
+    action007 = "hate"
+}
+var action0071: String
+var person0071 = "hater"
+
+if person0071 == "hater" {
+    action0071 = "hate"
+} else if person0071 == "player" {
+    action0071 = "play"
+} else {
+    action0071 = "cruise"
+}
+
+var action0072: String
+var stayOutTooLate0072 = true
+var nothingInBrain0072 = true
+
+if stayOutTooLate0072 && nothingInBrain0072 {
+    action0072 = "cruise"
+}
+
+
+if !stayOutTooLate0072 && !nothingInBrain0072 {
+    action0072 = "cruise"
+}
