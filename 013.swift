@@ -86,3 +86,24 @@ stayOutTooLate1
 var name7 = "Tim McGraw"
 name7 == "Tim McGraw"
 name7 != "Tim McGraw"
+
+
+
+//004 String interpolation
+
+var name8 = "Tim McGraw8"
+var name9 = "Tim McGraw9"
+"Your name is \(name8)"
+
+var name10 = "Tim McGraw"
+"Your name is " + name
+
+var name11 = "Tim McGraw"
+var age11 = 25
+var latitude11 = 36.166667
+
+"Your name is \(name11), your age is \(age11), and your latitude is \(latitude11)"
+
+
+var age12 = 25
+"You are \(age) years old. In another \(age12) years you will be \(age12 * 2)."
