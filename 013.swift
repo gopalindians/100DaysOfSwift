@@ -107,3 +107,30 @@ var latitude11 = 36.166667
 
 var age12 = 25
 "You are \(age) years old. In another \(age12) years you will be \(age12 * 2)."
+
+
+//005 Arrays
+
+var evenNumbers = [2, 4, 6, 8]
+var songs = ["Shake it Off", "You Belong with Me", "Back to December"]
+
+var songs1 = ["Shake it Off", "You Belong with Me", "Back to December"]
+songs1[0]
+songs1[1]
+songs1[2]
+
+var songs2 = ["Shake it Off", "You Belong with Me", "Back to December"]
+type(of: songs2)
+var songs3:[Any] = ["Shake it Off", "You Belong with Me", "Back to December", 3]
+type(of: songs3)
+
+//var songs5: [String] = []
+//songs5[0] = "Shake it Off"
+
+var songs6 = [String]()
+
+var songs7 = ["Shake it Off", "You Belong with Me", "Love Story"]
+var songs8 = ["Today was a Fairytale", "Welcome to New York", "Fifteen"]
+var both2 = songs7 + songs8
+
+both2 += ["Everything has Changed"]
