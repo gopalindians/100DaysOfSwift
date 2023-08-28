@@ -187,3 +187,84 @@ if stayOutTooLate0072 && nothingInBrain0072 {
 if !stayOutTooLate0072 && !nothingInBrain0072 {
     action0072 = "cruise"
 }
+
+
+//008 Loops
+
+print("1 x 10 is \(1 * 10)")
+print("2 x 10 is \(2 * 10)")
+print("3 x 10 is \(3 * 10)")
+print("4 x 10 is \(4 * 10)")
+print("5 x 10 is \(5 * 10)")
+print("6 x 10 is \(6 * 10)")
+print("7 x 10 is \(7 * 10)")
+print("8 x 10 is \(8 * 10)")
+print("9 x 10 is \(9 * 10)")
+print("10 x 10 is \(10 * 10)")
+
+for i in 1...10 {
+    print("\(i) x 10 is \(i * 10)")
+}
+
+var str = "Fakers gonna"
+
+for _ in 1...5 {
+    str += " fake"
+}
+
+print(str)
+
+var songs008 = ["Shake it Off", "You Belong with Me", "Look What You Made Me Do"]
+
+for song in songs008 {
+    print("My favorite song is \(song)")
+}
+
+var people008 = ["players", "haters", "heart-breakers", "fakers"]
+var actions008 = ["play", "hate", "break", "fake"]
+
+for i in 0...3 {
+    print("\(people008[i]) gonna \(actions008[i])")
+}
+
+
+var people0081 = ["players", "haters", "heart-breakers", "fakers"]
+var actions0081 = ["play", "hate", "break", "fake"]
+
+for i in 0..<people0081.count {
+    print("\(people0081[i]) gonna \(actions0081[i])")
+}
+
+var people0082 = ["players", "haters", "heart-breakers", "fakers"]
+var actions0082 = ["play", "hate", "break", "fake"]
+
+for i in 0..<people0082.count {
+    var str = "\(people0082[i]) gonna"
+
+    for _ in 1...5 {
+        str += " \(actions0082[i])"
+    }
+
+    print(str)
+}
+
+var counter008 = 0
+
+while true {
+    print("Counter is now \(counter008)")
+    counter008 += 1
+
+    if counter008 == 556 {
+        break
+    }
+}
+
+var songs0081 = ["Shake it Off", "You Belong with Me", "Look What You Made Me Do"]
+
+for song in songs0081 {
+    if song == "You Belong with Me" {
+        continue
+    }
+
+    print("My favorite song is \(song)")
+}
