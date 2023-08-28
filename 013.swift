@@ -52,3 +52,37 @@ missABeat = false
 var name2: String
 name2 = "Tim McGraw"
 var name3: String = "Tim McGraw"
+
+
+
+//003 Operators
+
+var a = 10
+a = a + 1
+a = a - 1
+a = a * a
+
+var b = 10
+b += 10
+b -= 10
+
+var a1 = 1.1
+var b1 = 2.2
+var c1 = a + b
+
+var name4 = "Tim McGraw"
+var name5 = "Romeo"
+var both = name4 + " and " + name5
+
+var name6 = "Tim McGraw"
+name6 == "Tim McGraw"
+
+
+var stayOutTooLate1 = true
+stayOutTooLate1
+!stayOutTooLate1
+
+
+var name7 = "Tim McGraw"
+name7 == "Tim McGraw"
+name7 != "Tim McGraw"
